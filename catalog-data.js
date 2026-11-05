@@ -1,0 +1,32 @@
+const systems = [
+  ['Abatibles','4000','Nuevo','Hasta 24 mm','120 kg','1,200 × 2,600 mm','Ensamble a 45°|Dos perfiles básicos; canal europeo|Puerta y ventana; hoja minimalista|Doble vidrio; oscilobatiente|Compatible con Corrediza 8500','Abatible 1 o 2 hojas, vasista, proyección, oscilobatiente, puerta 1 o 2 hojas y fijo'],
+  ['Abatibles','1400','','Hasta 24 mm','120 kg','1,200 × 2,800 mm','Ensamble a 45°|Canal 40-20; perfiles de 40 mm|Puerta y ventana; retícula|Marcos, hojas y junquillos curvos disponibles','Abatible 1 o 2 hojas, vasista, proyección, pivotante, puerta 1 o 2 hojas y fijo'],
+  ['Abatibles','6000','','Hasta 24 mm','120 kg','1,200 × 3,000 mm','Ensamble a 45°; canal europeo|Doble vidrio; oscilobatiente|Permite fachadas ligeras|Compatible con lama mallorquina y Corrediza 4600','Abatible 1 o 2 hojas, vasista, proyección, oscilobatiente, puerta 1 o 2 hojas y fijo'],
+  ['Abatibles','6500 RPT','RPT','Hasta 32 mm · doble con cámara','120 kg','1,200 × 2,800 mm','Rotura de puente térmico con poliamida|Canal europeo; ensamble a 45°|Aislamiento térmico y acústico|Oscilobatiente; diseños bicolor y hojas curvas','Abatible 1 o 2 hojas, vasista, proyección, oscilobatiente, puerta 1 o 2 hojas y fijo'],
+  ['Abatibles','2500 RPT','RPT','Hasta 30 mm · doble con cámara','120 kg','1,200 × 2,800 mm','Rotura de puente térmico; canal de 16 mm|Ensamble a 45°; aislamiento térmico y acústico|Herraje oculto y sistema multipunto opcionales|Diseños bicolor disponibles','Abatible 1 o 2 hojas, oscilobatiente y puerta 1 o 2 hojas'],
+  ['Corredizos','8500','Nuevo','Hasta 24 mm','120 kg','1,400 × 2,800 mm','Cuatro perfiles básicos; marco 85 mm y hoja 36 mm|Corte a 45°; kit de hermeticidad perimetral|Ajunquillable con cristal doble; mosquitero opcional|Compatible con Abatible 4000','Corrediza de 2, 3, 4 o 6 hojas'],
+  ['Corredizos','3500','','16 mm','90 kg','1,100 × 2,500 mm','Ensamble a 90°; marco 60 mm y hoja 24 mm|Compatible con retícula; acristalamiento doble|Puerta y ventana; compatible con Abatible 1400','Corrediza de 2, 3 o 4 hojas'],
+  ['Corredizos','3600','','16 mm','90 kg','1,100 × 2,500 mm','Ensamble a 45°; tres perfiles básicos|Marco 40 mm y hoja 18 mm|Mosquitero opcional; montaje optimizado','Corrediza de 2, 3 o 4 hojas'],
+  ['Corredizos','4600','','18 mm','150 kg','1,400 × 2,800 mm','Ensamble a 45°; tres perfiles básicos|Tres gamas combinables|Mosquitero corredizo opcional|Cierre embutido o multipunto','Corrediza de 2, 3, 4 o 6 hojas'],
+  ['Corredizos','10000','','24 mm','200 kg','1,800 × 3,500 mm','Cuatro perfiles básicos; marco 100 mm y hoja 40 mm|Corte a 45°; cristal doble ajunquillable|Kit de hermeticidad; mosquitero opcional|Compatible con Abatible 6000','Corrediza de 2, 3, 4 o 6 hojas'],
+  ['Corredizos','4600 RPT','RPT','18 mm · doble con cámara','130 kg','1,400 × 2,700 mm','Rotura de puente térmico con poliamida|Marco 112 mm y hoja 71 mm|Aislamiento térmico y acústico|Mosquitero, cierre multipunto y diseños bicolor','Corrediza de 2, 3 o 4 hojas'],
+  ['Corredizos','2400 RPT','RPT','24 mm · doble con cámara','100 kg','1,300 × 2,800 mm','Rotura de puente térmico con poliamida|Ensamble a 45°; aislamiento térmico y acústico|Para balconeras térmicas; diseños bicolor','Corrediza de 2, 3 o 4 hojas'],
+  ['Plegables','6400','','24 mm','75 kg','750 × 2,700 mm','Canal europeo; marco 47 mm y hoja 40 mm|Marco con cortes a 45° o 90°; hoja a 45°|Guía oculta o visible|Compatible con lama mallorquina|Configuración de hojas pares o impares','Plegable de 2, 3 o 4 hojas'],
+  ['Elevables','10500','','33 mm · doble o triple vidrio','400 kg','2,000 × 4,000 mm','Marco 150 mm y hoja 60 mm|Marco cortado a 90° y hoja a 45°|Kit de hermeticidad perimetral|Para grandes dimensiones y ambientes exigentes','Elevable de 2, 3, 4 o 6 hojas']
+];
+const facades=[
+ ['Modular 4″','Sistema prefabricado de cuatro pulgadas','Configuración flexible de paños|Vidrio de control solar compatible|Acabados anodizados y lacados'],
+ ['Modular 8″','Perfil de ocho pulgadas para fachadas de mayor escala','Mayor resistencia estructural|Aislamiento térmico y acústico|Para edificios de gran altura'],
+ ['Modular 350','Serie de 350 mm de profundidad','Paños intercambiables|Diseño modular|Aplicaciones residenciales y comerciales'],
+ ['Stick 8000','Sistema de ensamblado en obra','Flexibilidad para formas complejas|Integración con estructuras existentes|Opciones de rotura de puente térmico']
+];
+const pvc=[
+ ['Oscilobatiente','8 cm','24 mm · 6/12/6','Apertura superior tipo vasista o lateral practicable|Ventana o puerta de 1 o 2 hojas|Mosquitero fijo opcional|Para dormitorios y áreas de descanso'],
+ ['Vasista','8 cm','24 mm · 6/12/6','Apertura superior hacia adentro|Mosquitero fijo opcional|Para baños, cocinas y espacios reducidos|Control remoto opcional para vanos altos'],
+ ['Fija','8 cm','24 mm · 6/12/6','Paño sin apertura|Combinable con abatible o corrediza|Para vanos altos o de difícil acceso|Dimensiones a medida'],
+ ['Corrediza','~12 cm con mosquitero · ~7 cm sin','24 mm','Ventana o puerta hasta 3.20 m de alto|Fija + corrediza o doble corrediza|Mosquitero corredizo opcional|Chapa o cilindro: consultar'],
+ ['Abatible','8 cm','24 mm · 6/12/6','Apertura interior o exterior; ventana o puerta|Una o dos hojas|Mosquitero fijo en apertura interior|Compatible con cerraduras de seguridad'],
+ ['Proyectante','8 cm','24 mm · 6/12/6','Apertura inferior hacia afuera|Para ventanas pequeñas o medianas|Control remoto opcional en vanos altos|Sin mosquitero; no disponible como puerta']
+];
+const aluminumFinishes=[['SA11','Natural','Anodizado','#c9cbc4'],['SA16','Inox Grata','Anodizado','#d1d3d0'],['SA17','Negro Anodizado','Anodizado','#343435'],['L401','Gris Europa','Lacado','#828792'],['SL81','Hueso','Lacado','#f0e9da'],['SL80','Blanco','Lacado','#f7f7f6'],['SL86','Duro E','Lacado','#555550'],['SM88','Madera Nogal','Madera','#a47934']];
+const pvcFinishes=[['Altweisse','F456-5053','#e4e0d9'],['Gris metalizado','F436-1002','#a5adb5'],['Peltre','F436-1004','#b7b3ac'],['Alpine','F470-3002','#d3ccc5'],['Grey Oak','F436-3086','#98918b'],['Turner Oak','F470-3001','#98774c'],['Lenga','F436-3077','#9f805a'],['Golden Oak','F436-2036','#aa7839'],['Nogal','F436-2048','#765537'],['Toffee','F470-3004','#ab8760'],['Wengue','F436-2007','#6b635e'],['Goldbronze','F446-1025','#82746b'],['Mattex Kitami','F476-9026','#343331'],['Gris grafito','F436-7003','#48494a'],['Jet Black','F446-7062','#202020']];
